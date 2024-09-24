@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    margin: 0;
+    cursor: default;
+}
+
+#ui {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    width: 15vw;
+    height: 50vh;
+    border-radius: 50px;
+    top: 25vh;
+    left: 43.5vw;
+}
+
+#headline {
+    font-size: larger;
+}
+
+#submit {
+    background-color: rgb(157, 157, 255);
+    border-radius: 50px;
+}
+
+#submit:hover {
+    background-color: rgb(205, 232, 255);
+    cursor: pointer;
+}
