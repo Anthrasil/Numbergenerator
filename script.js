@@ -31,7 +31,6 @@ function getPrime(range) {
     return Primes
 }
 function getHappy(range) {
-    console.log("adsfa")
     if (range < 1 || isNaN(range)) {
         return
     }
